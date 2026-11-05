@@ -11,13 +11,13 @@
 首次配置或密钥重置后执行：
 
 ```powershell
-& "$env:USERPROFILE\.codex\skills\wechat-official-account\scripts\configure.ps1"
+& "<本 skill 所在目录>\scripts\configure.ps1"
 ```
 
 也可以从已有 `.env` 安全迁移：
 
 ```powershell
-& "$env:USERPROFILE\.codex\skills\wechat-official-account\scripts\configure.ps1" `
+& "<本 skill 所在目录>\scripts\configure.ps1" `
   -ExistingEnv "C:\path\to\.env"
 ```
 

@@ -32,10 +32,10 @@ description: 将任意文章转换为微信公众号发文稿，完成正文清�
 
 ## 调用
 
-从任意工作目录执行：
+从任意工作目录执行（`<本 skill 所在目录>` 替换为本 SKILL.md 所在文件夹的完整路径，不同工具的安装位置不同，以实际为准）：
 
 ```powershell
-& "$env:USERPROFILE\.codex\skills\wechat-official-account\scripts\publish.ps1" `
+& "<本 skill 所在目录>\scripts\publish.ps1" `
   -Html "outputs\article.html" `
   -Cover "outputs\cover.png" `
   -Title "文章标题" `
@@ -48,7 +48,7 @@ description: 将任意文章转换为微信公众号发文稿，完成正文清�
 仅检查凭证与 IP 白名单：
 
 ```powershell
-& "$env:USERPROFILE\.codex\skills\wechat-official-account\scripts\publish.ps1" -CheckAuth
+& "<本 skill 所在目录>\scripts\publish.ps1" -CheckAuth
 ```
 
 ## 错误处理
