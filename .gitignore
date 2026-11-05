@@ -1,0 +1,6 @@
+# 凭证与本地配置，禁止上传
+.env
+*.env
+.cowork_config/
+*secret*
+*token*

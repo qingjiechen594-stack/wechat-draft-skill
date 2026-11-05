@@ -1,0 +1,7 @@
+interface:
+  display_name: "微信公众号草稿箱"
+  short_description: "将任意文章完成公众号图文排版并安全存入微信公众号草稿箱"
+  default_prompt: "使用 $wechat-official-account 将这篇文章排版、生成封面并存入微信公众号草稿箱。"
+
+policy:
+  allow_implicit_invocation: true
